@@ -1,7 +1,7 @@
 # HospitalManagementSystem
 Hospital Management System using Java Swings and JDBC (MySQL) in Apache NetBeans.
 
-Note: Open this project in Apache NetBeans 14 or higher. Before opening the project, create databases as per the schema diagram provided in MySQL.
+Note: Open this project in Apache NetBeans 14+ or VS Code with the Java Extension Pack. Create the database by running `database/schema.sql` in MySQL on `localhost:3306` (user `root`, password `pass`). Sample logins: Doctor `1`/`pass`, Staff `1`/`pass`.
 
 Find out our full project report here: [JavaMiniFinal.pdf](https://github.com/VijeshPethuram/HospitalManagementSystem/files/11617498/JavaMiniFinal.pdf)
 

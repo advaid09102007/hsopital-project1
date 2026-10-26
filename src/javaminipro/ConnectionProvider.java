@@ -14,11 +14,12 @@ public class ConnectionProvider {
     try
     {
     Class.forName("com.mysql.cj.jdbc.Driver");
-    Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/javaminipro","root","pass");
+    Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/javaminipro","root","pass");
     return con;
     }
     catch(Exception e)
     {
+    e.printStackTrace();
     return null; 
     }
     }
